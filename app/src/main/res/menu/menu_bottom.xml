@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_camara"
+        android:icon="@drawable/icon_camera"
+        android:title="Camara" />
+
+    <item
+        android:id="@+id/menu_galeria"
+        android:icon="@drawable/icon_galeria"
+        android:title="Galeria" />
+
+    <item
+        android:id="@+id/menu_grabar"
+        android:icon="@drawable/icon_grabar"
+        android:title="Grabar audio" />
+
+    <item
+        android:id="@+id/menu_escuchar"
+        android:icon="@drawable/icon_escuchar"
+        android:title="Escuchar audio" />
+
+</menu>

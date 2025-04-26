@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/page_camera"
+    android:id="@+id/nav">
+
+    <fragment
+        android:id="@+id/page_camera"
+        android:name="com.example.practica3.CameraFragment"
+        tools:layout="@layout/fragment_camera"
+    />
+
+
+    <fragment
+        android:id="@+id/page_grabar"
+        android:name="com.example.practica3.RecordFragment"
+        tools:layout="@layout/fragment_record"
+        />
+
+    <fragment
+        android:id="@+id/page_escuchar"
+        android:name="com.example.practica3.HearFragment"
+        tools:layout="@layout/fragment_hear"
+        />
+
+</navigation>
